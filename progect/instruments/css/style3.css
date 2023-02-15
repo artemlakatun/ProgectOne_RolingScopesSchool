@@ -1,5 +1,5 @@
 /* 1450px+ */
-@media (min-width: 1450px) and (max-450width: 3000px){
+@media (min-width: 850px) and (max-width: 1124px){
     /* header */
     .header {
         height: 133px;
@@ -187,7 +187,6 @@
         width: 158px;
         height: 44px;
         top: 90%;
-        left: 50%;
     }
 
     .button1 {
@@ -514,6 +513,7 @@
         font-size: 20px;
         line-height: 26px;
         position: absolute;
+        left: 66%
     }
 
     .prices2 {

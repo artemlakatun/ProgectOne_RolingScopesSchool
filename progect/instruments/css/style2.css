@@ -1,5 +1,5 @@
 /* 1450px+ */
-@media (min-width: 1450px) and (max-450width: 3000px){
+@media (min-width: 1125px) and (max-width: 1449px){
     /* header */
     .header {
         height: 133px;
@@ -230,8 +230,10 @@
     }
 
     .floor {
-        width: 464px;
-        height: 479px;
+        width: 86%;
+        height: 442px;
+        position: absolute;
+        left: 35%;
     }
 
     .aboutUs > h2 {
@@ -267,7 +269,7 @@
 
     .serviceContent {
         position: absolute;
-        width: 50%;
+        width: 77%;
         height: 94px;
         top: 40px;
         left: 10%;
@@ -295,7 +297,7 @@
         width: 559px;
         height: 50px;
         top: 23px;
-        left: 41%;
+        left: 35%;
     }
 
     .button2 {
@@ -319,8 +321,8 @@
         position: absolute;
         width: 80%;
         height: 1000px;
-        top: 200px;
-        left: 10%;
+        top: 278px;
+        left: 14%;
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -328,16 +330,16 @@
     }
 
     .box {
-        width: 27%;
-        height: 455px;
+        width: 29%;
+        height: 338px;
         border: 1px solid #717171;
         border-radius: 20px;
     }
 
     .image3 {
         position: absolute;
-        width: 27%;
-        height: 35.7%;
+        width: 29%;
+        height: 25.7%;
         border-radius: 20px 20px 0 0;
     }
 
@@ -379,9 +381,9 @@
 
     .cont {
         position: absolute;
-        width: 27%;
-        height: 10%;
-        top: 35.6%;
+        width: 29%;
+        height: 8.5%;
+        top: 25.6%;
     }
 
     .cont2 {
@@ -393,7 +395,8 @@
 
     .topText {
         position: absolute;
-        left: 42%;
+        left: 37%;
+        top: -10px;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -402,7 +405,8 @@
 
     .topText1 {
         position: absolute;
-        left: 38%;
+        left: 30%;
+        top: -10px;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -411,7 +415,7 @@
 
     .bottomText {
         position: absolute;
-        top: 40px;
+        top: 20px;
         left: 10%;
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -461,7 +465,7 @@
         position: absolute;
         width: 20%;
         height: 212px;
-        left: 74%;
+        left: 66%;
         top: 260px;
     }
 
@@ -476,7 +480,7 @@
         position: absolute;
         width: 452px;
         height: 230px;
-        left: 65.5%;
+        left: 53.5%;
         top: 0;
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -485,10 +489,8 @@
         line-height: 50px;
     }
 
-    .text4 > p {
-        position: absolute;
-        right: 0;
-        text-align: right;
+    .pa{
+        padding-left: 50px;
     }
 
     .text4 > p > span {
@@ -499,7 +501,7 @@
         position: absolute;
         width: 162px;
         height: 50px;
-        left: 77%;
+        left: 71.5%;
         top: 165px;
     }
 
@@ -598,7 +600,7 @@
 
     .contactsContainer {
         position: absolute;
-        width: 20%;
+        width: 30%;
         height: 50px;
         left: 67%;
         top: 148px;
@@ -634,10 +636,10 @@
 
     .woman {
         position: absolute;
-        width: 500px;
-        height: 450px;
+        width: 42%;
+        height: 63%;
         left: 150px;
-        top: 85px;
+        top: 139px;
         background-color: #E06733;
     }
 
@@ -652,7 +654,7 @@
         top: 3752px;
         background-color: white;
         width: 99.5%;
-        height: 130px;
+        height: 65px;
     }
 
     .content {
@@ -667,20 +669,20 @@
         position: absolute;
         left: 7%;
         height: 100%;
-        width: 13%;
+        width: 20%;
     }
 
     .c {
         position: absolute;
         left: 15%;
         top: 35%;
-        width: 14%;
+        width: 8%;
         height: 30%;
     }
 
     .footerText {
         position: absolute;
-        top: 37%;
+        top: 25%;
         left: 38%;
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -691,7 +693,6 @@
     .name {
         position: absolute;
         left: 45%;
-        top: 24%;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -701,16 +702,16 @@
 
     .social {
         position: absolute;
-        left: 87%;
+        left: 83%;
         height: 100%;
-        width: 13%;
+        width: 17%;
     }
 
     .instagram {
         position: absolute;
         left: 5%;
         top: 30%;
-        width: 23%;
+        width: 19%;
         height: 48%;
     }
 
@@ -718,7 +719,7 @@
         position: absolute;
         left: 28%;
         top: 30%;
-        width: 23%;
+        width: 19%;
         height: 48%;
     }
 
@@ -726,7 +727,7 @@
         position: absolute;
         left: 50%;
         top: 30%;
-        width: 23%;
+        width: 19%;
         height: 48%;
     }
 
@@ -734,7 +735,7 @@
         position: absolute;
         left: 75%;
         top: 30%;
-        width: 23%;
+        width: 19%;
         height: 48%;
     }
 }

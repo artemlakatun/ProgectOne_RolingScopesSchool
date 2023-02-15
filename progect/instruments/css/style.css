@@ -1,0 +1,730 @@
+/* header */
+.header{
+    height: 133px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background: #EDF2EC;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .17);
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 42px;
+    left: 111px;
+}
+
+.logo{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 111px;
+    top: 30%;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+}
+
+.logoVector{
+   position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.list{
+    height: 20px;
+    width: 20px;
+}
+.nav{
+    position: absolute;
+    width: 23.5%;
+    height: 50px;
+    left: 60%;
+    align-items: center;
+}
+
+.navMenu{
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+
+.navMenu>li{
+    display: inline-block;
+}
+
+.exile{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+.exile1{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+.exile1:hover{
+    color: #E06733;
+    transition: 0.2s;
+}
+
+.exile:hover{
+    color: #E06733;
+    transition: 0.2s;
+}
+
+.exile1:hover:before{
+    transform: scaleX(1);
+    transition: 0.2s;
+}
+
+.exile:hover:before{
+    transform: scaleX(1);
+    transition: 0.2s;
+}
+
+
+.exile:before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #E06733;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+}
+
+.exile1:before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #E06733;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    size: 16px;
+    color:  #000000;
+}
+
+/* welcome */
+
+.welcome{
+    position: absolute;
+    width: 100%;
+    height: 532px;
+    left: 0;
+    top: 142px;
+    background-color: #EDF2EC;
+}
+
+.leafs{
+    position: absolute;
+    width: 448px;
+    height: 407px;
+    left: 10%;
+    top: 62px;
+}
+
+.welcomeText{
+    position: absolute;
+    width: 549px;
+    height: 340px;
+    left: 52%;
+    top: 95px;
+}
+
+.leafs1{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.text>h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #717171;
+    line-height: 50px;
+}
+.plants{
+    color: #499A18;
+}
+
+.button{
+    position: absolute;
+    width: 158px;
+    height: 44px;
+    top: 90%;
+}
+
+.button1{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid  #E06733;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* about */
+.about{
+    position: absolute;
+    width: 100%;
+    height: 666px;
+    left: 0;
+    background-color: white;
+    top: 675px;
+}
+
+.aboutUs{
+    position: absolute;
+    width: 605px;
+    height: 380px;
+    top: 161px;
+    left: 10%;
+}
+ .image{
+     position: absolute;
+     width: 464px;
+     height: 479px;
+     top:93px;
+     right: 9%;
+ }
+ .floor{
+     width: 464px;
+     height: 479px;
+ }
+ .aboutUs>h2{
+     font-family: 'Inika', serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 40px;
+     line-height: 52px;
+     color: #E06733;
+ }
+
+ .aboutUs>h2>span{
+     color: #499A18;
+ }
+
+.aboutUs>p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+/* Service*/
+.service{
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+    left: 0;
+    top: 1341px;
+    background-color: #EDF2EC;
+}
+
+.serviceContent{
+    position: absolute;
+    width: 50%;
+    height: 94px;
+    top: 40px;
+    left: 10%;
+}
+
+.text3{
+    position: absolute;
+    width: 306px;
+    height: 94px;
+}
+
+.text3>p{
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 30px;
+    color: #499A18;
+    margin: 0;
+    padding-top: 14px;
+}
+
+.serviceB{
+    position: absolute;
+    width: 559px;
+    height: 50px;
+    top: 23px;
+    left: 41%;
+}
+
+.button2{
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.button3{
+    height: 50px;
+    width: 161px;
+    border-radius: 5px;
+    border: 2px solid  #E06733;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E06733;
+}
+.services{
+    position: absolute;
+    width: 80%;
+    height: 1000px;
+    top: 200px;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.box{
+    width: 27%;
+    height: 455px;
+    border: 1px solid #717171;
+    border-radius: 20px;
+}
+
+.image3{
+    position: absolute;
+    width: 27%;
+    height: 35.7%;
+    border-radius: 20px 20px 0 0;
+}
+
+.farmer{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.lemon{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.farmer2{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.farmer3{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.garden{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.cactus{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.cont{
+    position: absolute;
+    width: 27%;
+    height: 10%;
+    top: 35.6%;
+}
+
+.cont2{
+    position: absolute;
+    width: 27%;
+    height: 10%;
+    top: 90%;
+}
+
+.topText{
+    position: absolute;
+    left: 42%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #E06733;
+}
+.topText1{
+    position: absolute;
+    left: 38%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #E06733;
+}
+.bottomText{
+    position: absolute;
+    top: 40px;
+    left: 24%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #717171;
+}
+
+.topText3{
+    position: absolute;
+    left: 42%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #E06733;
+}
+
+.bottomText2{
+    position: absolute;
+    top: 40px;
+    left: 24%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #717171;
+}
+/* Prices */
+
+.prices{
+   position: absolute;
+    width: 100%;
+    height: 560px;
+    left: 0;
+    top: 2641px;
+}
+
+.pricesWrapper{
+    position: absolute;
+    width: 85%;
+    height: 471px;
+    left: 7.5%;
+    top: 9%;
+}
+
+.leafs2{
+    position: absolute;
+    width: 20%;
+    height: 212px;
+    left: 74%;
+    top: 260px;
+}
+
+.tropical{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.text4{
+    position: absolute;
+    width: 452px;
+    height: 230px;
+    left: 65.5%;
+    top: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.text4>p{
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.text4>p>span{
+    color: #499A18;
+}
+
+.prices1{
+    position: absolute;
+    width: 162px;
+    height: 50px;
+    left: 77%;
+    top: 165px;
+}
+
+.button4{
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    position: absolute;
+    left: 66%
+}
+
+.prices2{
+    position: absolute;
+    width: 332px;
+    height: 350px;
+    left: 10%;
+    top: 25px;
+}
+
+.text5{
+    position: absolute;
+    width: 135px;
+    height: 49px;
+    left: 4%;
+    top: -15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.pricesItem{
+    position: absolute;
+    width: 300px;
+    height: 247px;
+    top: 90px;
+    left: -9.5%;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.pricesItems1{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    background-color: #EDF2EC;
+    border-radius: 15px;
+}
+
+.pricesItems2{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    background-color: #EDF2EC;
+    border-radius: 15px;
+    margin-top: 91px;
+}
+
+.pricesItems3{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    background-color: #EDF2EC;
+    border-radius: 15px;
+    margin-top: 182px;
+}
+
+.text6{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    left: 15%;
+    top: 3px;
+}
+
+/* Contacts */
+.contacts{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    left: 0;
+    top: 3201px;
+    background-color: #EDF2EC;
+}
+
+.contactsContainer{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    left: 67%;
+    top: 148px;
+    background-color: #D6E7D2;
+    border: 2px solid #499A18;
+}
+
+.contactsContainer>p{
+    position: absolute;
+    top: -15px;
+    left: 15%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #636060;
+}
+
+.contactUs{
+    position: absolute;
+    width: 210px;
+    height: 51px;
+    left: 45%;
+    top: -17px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.woman{
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 150px;
+    top: 85px;
+    background-color: #E06733;
+}
+.woman1{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+
+.footer{
+    position: absolute;
+    top: 3752px;
+    background-color: white;
+    width: 99.5%;
+    height: 130px;
+}
+
+.content{
+    position: absolute;
+    top: 18px;
+    left: 5%;
+    width: 90%;
+    height: 65%;
+}
+
+.footerData{
+    position: absolute;
+    left: 7%;
+    height: 100%;
+    width: 13%;
+}
+
+.c{
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    width: 14%;
+    height: 30%;
+}
+
+.footerText{
+    position: absolute;
+    top: 37%;
+    left: 38%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.name{
+    position: absolute;
+    left: 45%;
+    top: 24%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.social{
+    position: absolute;
+    left: 87%;
+    height: 100%;
+    width: 13%;
+}
+
+.instagram{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    width: 23%;
+    height: 48%;
+}
+
+.facebook{
+    position: absolute;
+    left: 28%;
+    top: 30%;
+    width: 23%;
+    height: 48%;
+}
+
+.twitter{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 23%;
+    height: 48%;
+}
+
+.git{
+    position: absolute;
+    left: 75%;
+    top: 30%;
+    width: 23%;
+    height: 48%;
+}

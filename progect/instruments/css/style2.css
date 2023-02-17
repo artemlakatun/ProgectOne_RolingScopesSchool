@@ -1,5 +1,5 @@
 /* 1450px+ */
-@media (min-width: 1125px) and (max-width: 1449px){
+@media (min-width: 1128px) and (max-width: 1449px){
     /* header */
     .header {
         height: 133px;
@@ -387,6 +387,32 @@
     }
 
     .cont2 {
+        position: absolute;
+        width: 29%;
+        height: 8.5%;
+        top: 25.6%;
+    }
+
+    .cont3 {
+        position: absolute;
+        width: 29%;
+        height: 8.5%;
+        top: 25.6%;
+    }
+
+    .cont4 {
+        position: absolute;
+        width: 27%;
+        height: 10%;
+        top: 90%;
+    }
+    .cont5 {
+        position: absolute;
+        width: 27%;
+        height: 10%;
+        top: 90%;
+    }
+    .cont6 {
         position: absolute;
         width: 27%;
         height: 10%;

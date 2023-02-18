@@ -1,5 +1,5 @@
 /* 380px - 850px */
-@media (min-width: 380px) and (max-width: 849px) {
+@media (min-width: 450px) and (max-width: 849px) {
     /* header */
     .header {
         height: 133px;
@@ -51,17 +51,17 @@
 
     .nav {
         position: absolute;
-        width: 52.5%;
+        width: 57.5%;
         height: 50px;
-        left: 45%;
-        top: -25%;
+        left: 39%;
+        top: -21%;
     }
 
     .navMenu {
         font-family: 'Inika', serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 50px;
         list-style-type: none;
         padding-left: 0;
@@ -74,14 +74,13 @@
     }
 
     .exile {
-        margin-left: 30px;
+        margin-left: 10px;
         text-decoration: none;
         color: #000000;
         position: relative;
     }
 
     .exile1 {
-        margin-left: 5px;
         text-decoration: none;
         color: #000000;
         position: relative;
@@ -130,15 +129,6 @@
         transform: scaleX(0);
     }
 
-    .text {
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        size: 16px;
-        color: #000000;
-    }
-
     /* welcome */
     .welcome {
         position: absolute;
@@ -151,18 +141,28 @@
 
     .leafs {
         position: absolute;
-        width: 336px;
-        height: 270px;
-        left: 4%;
-        top: 15%;
+        width: 300px;
+        height: 229px;
+        left: 18%;
+        top: 3%;
     }
 
     .welcomeText {
         position: absolute;
-        width: 549px;
-        height: 340px;
-        left: 52%;
-        top: 95px;
+        width: 100%;
+        height: 258px;
+        top: 51%;
+    }
+
+    .text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        line-height: 21px;
+        font-size: 13px;
+        color: #000000;
     }
 
     .leafs1 {
@@ -172,10 +172,13 @@
     }
 
     .text > h1 {
-        font-size: 33px;
+        margin-top: 0;
+        font-size: 28px;
         font-weight: 700;
         color: #717171;
         line-height: 40px;
+        width: 90%;
+        margin-left: 65px;
     }
 
     .plants {
@@ -187,6 +190,7 @@
         width: 158px;
         height: 44px;
         top: 80%;
+        left: 30%;
     }
 
     .button1 {
@@ -206,6 +210,9 @@
         font-size: 15px;
         color: #717171;
         line-height: 25px;
+        width: 90%;
+        margin-left: 40px;
+        margin-bottom: 0;
     }
 
     /* about */
